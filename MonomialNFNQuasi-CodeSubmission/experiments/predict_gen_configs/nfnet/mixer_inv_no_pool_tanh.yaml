@@ -1,0 +1,13 @@
+defaults:
+  - head_cls: mlp_mixer
+_target_: experiments.models.HNPSMixer_Inv
+hchannels: [20,20]
+mode: HNPSMixerInv
+model_type: tanh
+feature_dropout: 0.0
+normalize: false
+lnorm: null
+hnps_dim: [20,20]
+init_type: "xavier_normal" #xavier_normal, pytorch_default , xavier_uniform
+#model_type: "S_sin_abs_gen"
+append_stats: false

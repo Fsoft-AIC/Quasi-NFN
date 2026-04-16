@@ -1,0 +1,12 @@
+defaults:
+  - inv_ff_hnps
+
+mode: HNP
+hnps_dim: 64
+inp_enc_cls:
+  scale: 3
+model_type: "SQuasi_sin_abs"
+
+head_cls:
+  dropout: 0.1
+feature_dropout: 0.1

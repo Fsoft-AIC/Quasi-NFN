@@ -1,0 +1,6 @@
+outputs
+experiments/augmented_data
+experiments/data
+wandb
+# pycache
+*.pyc

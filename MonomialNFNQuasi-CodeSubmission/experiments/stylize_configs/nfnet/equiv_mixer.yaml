@@ -1,0 +1,13 @@
+defaults:
+  - inp_enc_cls: gaussian
+#  - pos_enc_cls: sin
+
+_target_: experiments.stylize_models.MixerTransferNet
+pos_enc_cls: null
+hidden_channels: 128
+hidden_layers: 3
+mode: Mixer
+init_type: "xavier_normal"
+out_scale: 0.01
+lnorm: false
+dropout: 0

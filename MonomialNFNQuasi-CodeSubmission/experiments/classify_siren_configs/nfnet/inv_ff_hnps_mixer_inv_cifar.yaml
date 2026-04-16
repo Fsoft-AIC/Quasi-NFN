@@ -1,0 +1,13 @@
+defaults:
+  - inv_ff_hnps_mixer_inv
+
+mode: HNPSMixerInv
+hchannels: [64,64,64]
+hnps_dim: [64,64,64]
+inp_enc_cls:
+  scale: 3
+
+head_cls:
+  dropout: 0.1
+  h_size: 1000
+feature_dropout: 0.1

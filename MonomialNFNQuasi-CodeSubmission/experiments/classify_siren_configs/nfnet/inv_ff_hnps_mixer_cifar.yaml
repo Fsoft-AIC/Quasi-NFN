@@ -1,0 +1,12 @@
+defaults:
+  - inv_ff_hnps_mixer
+  - pos_enc_cls: sin
+
+mode: Mixer_NP
+init_type: "xavier_normal"
+model_type: "sin"
+hchannels: [256,256,256]
+hnps_dim: [64]
+concat: True
+head_cls:
+  dropout: 0.5
