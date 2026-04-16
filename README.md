@@ -2,7 +2,7 @@
 
 [![Conference](https://img.shields.io/badge/ICLR-2026-green)](https://iclr.cc/Conferences/2026)
 
-Official implementation of the paper "Quasi-Equivariant Metanetworks" (ICML 2026).
+Official implementation of the paper "Quasi-Equivariant Metanetworks" (ICLR 2026).
 
 ![Alt text](figures/illustration.png)
 ## Setup
